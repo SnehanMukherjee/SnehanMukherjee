@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snehan Mukherjee — CS &amp; Engineering</title>
+<meta name="description" content="Personal site of Snehan Mukherjee — computer science &amp; engineering, business minor, Ohio State University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="nav__mark" href="#top">S.</a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navList">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__list" id="navList">
+      <li class="nav__item nav__item--theme">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-pressed="false">
+          <span class="icon icon--sun" aria-hidden="true">☀️</span>
+          <span class="icon icon--moon" aria-hidden="true">🌙</span>
+        </button>
+      </li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#log">Log</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="reading.html">Reading</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <p class="eyebrow">CS &amp; Engineering · Business Minor · Ohio State University</p>
+    <div class="hero__media">
+      <img class="hero__photo" src="profile.jpg" alt="Portrait of Snehan Mukherjee">
+    </div>
+    <h1 class="hero__title">Hi, I'm Snehan Mukherjee.<br>I build at the edge of <span class="hl">software</span> and <span class="hl">science</span>.</h1>
+    <p class="hero__sub">
+      Freshman studying computer science &amp; engineering with a business minor at Ohio State.
+      Previously: AI research at Cleveland Clinic, wet lab research at Case Western Reserve.
+      Currently exploring where machine learning meets health and biology.
+    </p>
+
+    <ul class="social-row" aria-label="Social links">
+      <li>
+        <a href="https://www.linkedin.com/in/snehan-mukherjee-498542282" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.44-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:mukherjee.268@buckeyemail.osu.edu">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.3 7.4 6.1a.6.6 0 0 0 .8 0l7.4-6.1H4.2zM20 7.2l-7 5.75a2.1 2.1 0 0 1-2.7 0L3.3 7.2v11.1H20V7.2z"/></svg>
+          <span>Email</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/SnehanMukherjee" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.5c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.26-.45-1.28.1-2.66 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.66.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://spikelab-ccf.github.io/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M9.5 2A1.5 1.5 0 0 0 8 3.5v.6c0 .4-.1.8-.3 1.1L3.4 13a4.5 4.5 0 0 0 3.9 6.7h9.4a4.5 4.5 0 0 0 3.9-6.7l-4.3-7.8a2.4 2.4 0 0 1-.3-1.1v-.6A1.5 1.5 0 0 0 14.5 2h-5zm.5 3V3.5h4V5c0 .7.18 1.38.5 2h-5c.32-.62.5-1.3.5-2zM7.9 15h8.2l1.3 2.36a2.5 2.5 0 0 1-2.18 3.71H6.78a2.5 2.5 0 0 1-2.18-3.71L7.9 15z"/></svg>
+          <span>Lab Site</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <p class="section__tag">01 / About</p>
+    <h2 class="section__title">A bit about my path</h2>
+    <div class="about__grid">
+      <p class="about__text">
+        I'm a freshman at Ohio State studying computer science &amp; engineering, with a business minor
+        so I can think about technical work the way the people funding it eventually will. Before college,
+        I worked in an AI and technology lab at Cleveland Clinic, and did wet lab research at Case Western
+        Reserve University — so my interest in software didn't start at a keyboard, it started at a bench.
+        <br><br>
+        <em>Replace this paragraph with your own voice — what pulled you toward CS, what the two research
+        experiences taught you, and what you're chasing next.</em>
+      </p>
+      <ul class="about__facts">
+        <li><span class="k">Studying</span><span class="v">CS &amp; Engineering, Business Minor</span></li>
+        <li><span class="k">School</span><span class="v">Ohio State University</span></li>
+        <li><span class="k">Past labs</span><span class="v">Cleveland Clinic — SPIKE Lab (AI epilepsy research) · Case Western — Adams Lab (cancer research)</span></li>
+        <li><span class="k">Based in</span><span class="v">Cleveland, OH</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TIMELINE / LOG -->
+  <section class="section section--log" id="log">
+    <p class="section__tag">02 / Log</p>
+    <h2 class="section__title">Research log</h2>
+    <p class="section__lede">A running record, kept the way a lab notebook is kept — dated, tagged, in order.</p>
+
+    <ol class="log">
+      <li class="log__entry">
+        <span class="log__date">NOW</span>
+        <div class="log__body">
+          <span class="log__tag">CS &amp; ENGINEERING</span>
+          <h3>Started at Ohio State University</h3>
+          <p>Freshman year, computer science &amp; engineering major with a business minor. <em>[Add month/year and what you're taking or building right now.]</em></p>
+        </div>
+      </li>
+      <li class="log__entry">
+        <span class="log__date">BEFORE OSU</span>
+        <div class="log__body">
+          <span class="log__tag">AI / ML</span>
+          <h3>AI &amp; technology lab, Cleveland Clinic</h3>
+          <p>Research work in an AI/technology lab setting. <em>[Add dates, the project name, and one concrete result or contribution.]</em></p>
+        </div>
+      </li>
+      <li class="log__entry">
+        <span class="log__date">BEFORE OSU</span>
+        <div class="log__body">
+          <span class="log__tag">WET LAB</span>
+          <h3>Research, Case Western Reserve University</h3>
+          <p>Wet lab research experience. <em>[Add dates, the lab/PI name if you can share it, and what the research was on.]</em></p>
+        </div>
+      </li>
+      <li class="log__entry">
+        <span class="log__date">EARLIER</span>
+        <div class="log__body">
+          <span class="log__tag">FOUNDATIONS</span>
+          <h3>Add an earlier milestone</h3>
+          <p><em>[High school project, first line of code, a competition — whatever the real starting point was.]</em></p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section" id="resume">
+    <p class="section__tag">03 / Resume</p>
+    <h2 class="section__title">Resume</h2>
+    <p class="section__lede">The short version is below. The full version is one click away.</p>
+
+    <div class="resume__card">
+      <div class="resume__col">
+        <h3>Highlights</h3>
+        <ul>
+          <li>CS &amp; Engineering, Business Minor — Ohio State University</li>
+          <li>AI/technology lab research — Cleveland Clinic</li>
+          <li>Wet lab research — Case Western Reserve University</li>
+          <li><em>[Add a skill, award, or metric you're proud of]</em></li>
+        </ul>
+      </div>
+      <div class="resume__col resume__col--action">
+        <a class="btn btn--primary" href="resume.pdf" download>Download résumé (PDF)</a>
+        <p class="resume__note">Add your own <code>resume.pdf</code> file next to <code>index.html</code> in the repo — this button will pick it up automatically.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reading-summary">
+    <p class="section__tag">04 / Reading</p>
+    <h2 class="section__title">Reading</h2>
+    <p class="section__lede">I keep a running reading list. <a href="reading.html">View the full list of finished books →</a></p>
+  </section>
+
+  <!-- PROJECTS (recommended addition) -->
+  <section class="section" id="projects">
+    <p class="section__tag">05 / Projects</p>
+    <h2 class="section__title">Things I've built</h2>
+    <p class="section__lede">Recruiters and labs look here first — keep 2–4 of your strongest, not everything.</p>
+
+    <div class="projects__grid">
+      <article class="project-card">
+        <span class="project-card__tag">[Tag, e.g. Machine Learning]</span>
+        <h3>[Project name]</h3>
+        <p>[One or two sentences: what it does, what you used, what was hard about it.]</p>
+        <a href="#" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+      <article class="project-card">
+        <span class="project-card__tag">[Tag]</span>
+        <h3>[Project name]</h3>
+        <p>[Description.]</p>
+        <a href="#" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+      <article class="project-card">
+        <span class="project-card__tag">[Tag]</span>
+        <h3>[Project name]</h3>
+        <p>[Description.]</p>
+        <a href="#" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS (recommended addition) -->
+  <section class="section" id="skills">
+    <p class="section__tag">06 / Toolkit</p>
+    <h2 class="section__title">Skills &amp; tools</h2>
+    <div class="skills__grid">
+      <div class="skills__group">
+        <h3>Languages</h3>
+        <p>Python, Java, C++ <em>[edit to match you]</em></p>
+      </div>
+      <div class="skills__group">
+        <h3>Tools &amp; platforms</h3>
+        <p>Git/GitHub, Jupyter, [add yours]</p>
+      </div>
+      <div class="skills__group">
+        <h3>Domains</h3>
+        <p>Machine learning, biomedical research, [add yours]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact">
+    <p class="section__tag">07 / Contact</p>
+    <h2 class="section__title">Let's talk</h2>
+    <p class="section__lede">Open to research collaborations, internships, and interesting problems.</p>
+    <a class="btn btn--primary" href="mailto:mukherjee.268@buckeyemail.osu.edu">Email me</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Snehan Mukherjee. Built by hand, hosted on GitHub Pages.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
