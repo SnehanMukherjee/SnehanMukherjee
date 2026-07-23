@@ -73,3 +73,38 @@ navList.querySelectorAll('a').forEach(link => {
 
 // Set current year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Section heading glow effect on scroll
+const sectionTitles = document.querySelectorAll('.section__title');
+
+function updateActiveHeading() {
+  let activeSection = null;
+
+  // Find which section is currently in view
+  document.querySelectorAll('section[id]').forEach(section => {
+    const rect = section.getBoundingClientRect();
+    // Check if section is in the upper half of the viewport
+    if (rect.top < window.innerHeight / 2 && rect.bottom > 0) {
+      activeSection = section;
+    }
+  });
+
+  // Remove glow from all titles
+  sectionTitles.forEach(title => {
+    title.classList.remove('active-heading');
+  });
+
+  // Add glow to the active section's title
+  if (activeSection) {
+    const title = activeSection.querySelector('.section__title');
+    if (title) {
+      title.classList.add('active-heading');
+    }
+  }
+}
+
+// Listen for scroll events
+window.addEventListener('scroll', updateActiveHeading);
+
+// Also update on page load
+updateActiveHeading();
